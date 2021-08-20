@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="jhar_check">  
+  <test name="Data_driven_test">  
+  <parameter name="url" value="https://jharnibandhan.gov.in/"/>
+    <classes>  
+      <class name="Access.home1"/>  
+        
+    </classes>  
+  </test> <!-- Test -->  
+</suite> <!-- Suite --> 
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [jhar_check]">
+  <parameter name="url" value="https://jharnibandhan.gov.in/"/>
+  <test name="Data_driven_test(failed)">
+    <parameter name="url" value="https://jharnibandhan.gov.in/"/>
+    <classes>
+      <class name="Access.page1">
+        <methods>
+          <include name="reg" invocation-numbers="0 1 2 3 4 5"/>
+        </methods>
+      </class> <!-- Access.page1 -->
+    </classes>
+  </test> <!-- Data_driven_test(failed) -->
+</suite> <!-- Failed suite [jhar_check] -->
