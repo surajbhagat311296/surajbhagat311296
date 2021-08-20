@@ -50,6 +50,10 @@ public void tear()
 {
 driver.quit();
 }
+public void tear1()
+{
+
+}
 }
 
 		
